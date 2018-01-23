@@ -1,0 +1,17 @@
+{
+    "name": "bestresponsemedia/customers",
+    "description": "Bestresponsemedia test task",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~5.6.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bestresponsemedia\\Customers\\": ""
+        }
+    }
+}

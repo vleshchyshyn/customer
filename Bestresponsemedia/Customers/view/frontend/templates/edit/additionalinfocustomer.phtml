@@ -1,0 +1,8 @@
+<fieldset class="fieldset additioanal-info">
+<div class="field">
+    <label for="regulation" class="label"><span><?php /* @escapeNotVerified */
+            echo __('Github URL') ?></span></label>
+    <div class="control">
+        <input type="text" name="github_url" id="github_url" title="<?php /* @escapeNotVerified */ echo __('Github URL') ?>" value="<?= $block->escapeHtmlAttr($block->getCustomer()->getData('github_url')) ?>" class="input-text" data-validate="{required:false,'validate-url':true}">
+    </div>
+</div>
